@@ -104,6 +104,36 @@
     path-posix "~1.0.0"
     url-parse "~1.1.9"
 
+"@jupyterlab/coreutils@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/coreutils/-/coreutils-1.1.3.tgz#079ff19faeaffcb6cb243c3fb0c737f6ea661b5a"
+  dependencies:
+    "@phosphor/algorithm" "^1.1.2"
+    "@phosphor/coreutils" "^1.3.0"
+    "@phosphor/disposable" "^1.1.2"
+    "@phosphor/signaling" "^1.2.2"
+    ajv "~5.1.6"
+    comment-json "^1.1.3"
+    minimist "~1.2.0"
+    moment "~2.21.0"
+    path-posix "~1.0.0"
+    url-parse "~1.1.9"
+
+"@jupyterlab/coreutils@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/coreutils/-/coreutils-2.2.1.tgz#c271eaf2f6e468757ba9660f24bd3c3e5d6fe583"
+  dependencies:
+    "@phosphor/algorithm" "^1.1.2"
+    "@phosphor/coreutils" "^1.3.0"
+    "@phosphor/disposable" "^1.1.2"
+    "@phosphor/signaling" "^1.2.2"
+    ajv "~5.1.6"
+    comment-json "^1.1.3"
+    minimist "~1.2.0"
+    moment "~2.21.0"
+    path-posix "~1.0.0"
+    url-parse "~1.4.3"
+
 "@jupyterlab/docregistry@^0.16.0":
   version "0.16.0"
   resolved "https://registry.npmjs.org/@jupyterlab/docregistry/-/docregistry-0.16.0.tgz#c23ecff96afe0a3100c499854ebca528d5336edb"
@@ -146,9 +176,29 @@
     "@phosphor/widgets" "^1.5.0"
     react "~16.2.0"
 
+"@jupyterlab/observables@^1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/observables/-/observables-1.0.10.tgz#dbc9da5988ebf3acc35effd24a1c598b13592fb5"
+  dependencies:
+    "@phosphor/algorithm" "^1.1.2"
+    "@phosphor/coreutils" "^1.3.0"
+    "@phosphor/disposable" "^1.1.2"
+    "@phosphor/messaging" "^1.2.2"
+    "@phosphor/signaling" "^1.2.2"
+
 "@jupyterlab/observables@^1.0.7":
   version "1.0.7"
   resolved "https://registry.npmjs.org/@jupyterlab/observables/-/observables-1.0.7.tgz#daa66fc375117c879c74d6fa954b599121285422"
+  dependencies:
+    "@phosphor/algorithm" "^1.1.2"
+    "@phosphor/coreutils" "^1.3.0"
+    "@phosphor/disposable" "^1.1.2"
+    "@phosphor/messaging" "^1.2.2"
+    "@phosphor/signaling" "^1.2.2"
+
+"@jupyterlab/observables@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/observables/-/observables-2.1.1.tgz#c5d8ad295c5b0bce914a607a342b0af4550b2187"
   dependencies:
     "@phosphor/algorithm" "^1.1.2"
     "@phosphor/coreutils" "^1.3.0"
@@ -205,17 +255,28 @@
     marked "~0.3.9"
 
 "@jupyterlab/services@^1.0.1 || ^2.0.0", "@jupyterlab/services@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.npmjs.org/@jupyterlab/services/-/services-2.0.0.tgz#088c3b0aa5d7f2e0d4ff8fb490429072e8f834d2"
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/services/-/services-2.0.3.tgz#376f06093b693e7d1037d01b5a542ec27a84a052"
   dependencies:
-    "@jupyterlab/coreutils" "^1.1.0"
-    "@jupyterlab/observables" "^1.0.7"
+    "@jupyterlab/coreutils" "^1.1.3"
+    "@jupyterlab/observables" "^1.0.10"
     "@phosphor/algorithm" "^1.1.2"
     "@phosphor/coreutils" "^1.3.0"
     "@phosphor/disposable" "^1.1.2"
     "@phosphor/signaling" "^1.2.2"
     node-fetch "~1.7.3"
     ws "~1.1.4"
+
+"@jupyterlab/services@^3.2.1":
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/services/-/services-3.2.1.tgz#e8d9329ed73f794909f786d22c5e94b07beb041b"
+  dependencies:
+    "@jupyterlab/coreutils" "^2.2.1"
+    "@jupyterlab/observables" "^2.1.1"
+    "@phosphor/algorithm" "^1.1.2"
+    "@phosphor/coreutils" "^1.3.0"
+    "@phosphor/disposable" "^1.1.2"
+    "@phosphor/signaling" "^1.2.2"
 
 "@phosphor/algorithm@^1.1.0", "@phosphor/algorithm@^1.1.2":
   version "1.1.2"
@@ -5673,6 +5734,10 @@ querystring@0.2.0:
   version "0.2.0"
   resolved "https://registry.npmjs.org/querystring/-/querystring-0.2.0.tgz#b209849203bb25df820da756e747005878521620"
 
+querystringify@^2.0.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.1.0.tgz#7ded8dfbf7879dcc60d0a644ac6754b283ad17ef"
+
 querystringify@~1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/querystringify/-/querystringify-1.0.0.tgz#6286242112c5b712fa654e526652bf6a13ff05cb"
@@ -5998,7 +6063,7 @@ require-main-filename@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/require-main-filename/-/require-main-filename-1.0.1.tgz#97f717b69d48784f5f526a6c5aa8ffdda055a4d1"
 
-requires-port@1.0.x, requires-port@1.x.x:
+requires-port@1.0.x, requires-port@1.x.x, requires-port@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
 
@@ -7044,6 +7109,13 @@ url-parse@~1.1.9:
   dependencies:
     querystringify "~1.0.0"
     requires-port "1.0.x"
+
+url-parse@~1.4.3:
+  version "1.4.4"
+  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.4.4.tgz#cac1556e95faa0303691fec5cf9d5a1bc34648f8"
+  dependencies:
+    querystringify "^2.0.0"
+    requires-port "^1.0.0"
 
 url@^0.11.0:
   version "0.11.0"
