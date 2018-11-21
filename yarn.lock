@@ -370,9 +370,9 @@
   version "0.0.28"
   resolved "https://registry.npmjs.org/@types/marked/-/marked-0.0.28.tgz#44ba754e9fa51432583e8eb30a7c4dd249b52faa"
 
-"@types/mathjax@0.0.31":
-  version "0.0.31"
-  resolved "https://registry.npmjs.org/@types/mathjax/-/mathjax-0.0.31.tgz#6618b6555082311edbe0ad34cd93408eb43370da"
+"@types/mathjax@0.0.35":
+  version "0.0.35"
+  resolved "https://registry.yarnpkg.com/@types/mathjax/-/mathjax-0.0.35.tgz#9b7e69dc49f4d105ad7b992775b3fba412889543"
 
 "@types/minimatch@*":
   version "3.0.3"
