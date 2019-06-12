@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@types/requirejs": "^2.1.28",
-    "css-loader": "^0.28.4",
+    "css-loader": "^3.0.0",
     "file-loader": "^0.11.2",
     "fs-extra": "^0.30.0",
     "json-loader": "^0.5.4",
