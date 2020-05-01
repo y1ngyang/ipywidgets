@@ -8,7 +8,9 @@
     "clean": "rimraf built",
     "build": "webpack",
     "test": "npm run test:default",
-    "test:default": "echo \"No test specified\""
+    "test:default": "echo \"No test specified\"",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "IPython",
   "license": "BSD-3-Clause",
@@ -16,7 +18,8 @@
     "@jupyter-widgets/base": "^1.1.10",
     "@jupyter-widgets/controls": "^1.2.1",
     "codemirror": "^5.9.0",
-    "font-awesome": "^4.7.0"
+    "font-awesome": "^4.7.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "css-loader": "^0.28.4",
@@ -26,5 +29,6 @@
     "style-loader": "^0.18.1",
     "url-loader": "^1.1.2",
     "webpack": "^4.26.0"
-  }
+  },
+  "snyk": true
 }
