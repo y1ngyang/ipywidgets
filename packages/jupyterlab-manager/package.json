@@ -9,7 +9,7 @@
     "@jupyter-widgets/controls": "^1.2.1",
     "@jupyter-widgets/output": "^1.0.17",
     "@jupyterlab/application": "^0.16.0",
-    "@jupyterlab/coreutils": "^1.1.0",
+    "@jupyterlab/coreutils": "^4.2.4",
     "@jupyterlab/docregistry": "^0.16.0",
     "@jupyterlab/notebook": "^0.16.0",
     "@jupyterlab/outputarea": "^0.16.0",
