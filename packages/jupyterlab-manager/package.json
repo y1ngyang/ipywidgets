@@ -11,7 +11,7 @@
     "@jupyterlab/application": "^0.16.0",
     "@jupyterlab/coreutils": "^1.1.0",
     "@jupyterlab/docregistry": "^0.16.0",
-    "@jupyterlab/notebook": "^0.16.0",
+    "@jupyterlab/notebook": "^1.0.0",
     "@jupyterlab/outputarea": "^0.16.0",
     "@jupyterlab/rendermime": "^0.16.0",
     "@jupyterlab/rendermime-interfaces": "^1.0.1",
