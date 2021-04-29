@@ -1,0 +1,55 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "07:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: "@jupyterlab/rendermime"
+    versions:
+    - 3.0.3
+    - 3.0.4
+    - 3.0.6
+    - 3.0.7
+  - dependency-name: "@jupyterlab/coreutils"
+    versions:
+    - 5.0.1
+    - 5.0.2
+    - 5.0.3
+    - 5.0.4
+  - dependency-name: karma
+    versions:
+    - 6.0.2
+    - 6.1.0
+    - 6.1.1
+    - 6.1.2
+    - 6.2.0
+    - 6.3.1
+  - dependency-name: "@jupyterlab/application"
+    versions:
+    - 3.0.3
+    - 3.0.4
+    - 3.0.6
+    - 3.0.7
+  - dependency-name: sinon
+    versions:
+    - 10.0.0
+    - 9.2.4
+  - dependency-name: "@types/backbone"
+    versions:
+    - 1.4.5
+    - 1.4.9
+  - dependency-name: postcss-cli
+    versions:
+    - 7.1.2
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
+  - dependency-name: handlebars
+    versions:
+    - 4.7.6
