@@ -13,7 +13,7 @@
     "@jupyterlab/docregistry": "^0.16.0",
     "@jupyterlab/notebook": "^0.16.0",
     "@jupyterlab/outputarea": "^0.16.0",
-    "@jupyterlab/rendermime": "^0.16.0",
+    "@jupyterlab/rendermime": "^3.0.10",
     "@jupyterlab/rendermime-interfaces": "^1.0.1",
     "@jupyterlab/services": "^3.2.1",
     "@phosphor/disposable": "^1.1.1",
