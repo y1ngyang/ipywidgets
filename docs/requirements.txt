@@ -6,3 +6,6 @@ nbsphinx>=0.2.13
 recommonmark==0.4.0
 sphinx>=1.4.6
 sphinx_rtd_theme
+ipython>=8.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.3.3 # not directly required, pinned by Snyk to avoid a vulnerability
