@@ -21,9 +21,9 @@
   },
   "homepage": "https://github.com/jupyter-widgets/ipywidgets#readme",
   "dependencies": {
-    "@jupyter-widgets/base": "^1.1.10",
-    "@jupyter-widgets/controls": "^1.2.1",
-    "@jupyter-widgets/html-manager": "^0.13.0",
+    "@jupyter-widgets/base": "^6.0.5",
+    "@jupyter-widgets/controls": "^5.0.0",
+    "@jupyter-widgets/html-manager": "^1.0.0",
     "@jupyter-widgets/output": "^1.0.17",
     "@phosphor/messaging": "^1.2.1",
     "@phosphor/widgets": "^1.3.0",
